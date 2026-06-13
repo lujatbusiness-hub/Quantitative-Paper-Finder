@@ -1,0 +1,19 @@
+# Paste one arXiv link per line. Lines starting with # are ignored.
+# Accepted forms:
+#   https://arxiv.org/abs/2301.00001
+#   https://arxiv.org/pdf/2301.00001
+#   2301.00001            (bare arXiv id)
+#
+# Keyword searches are also supported: the top N arXiv results are summarized
+# automatically (N optional, default 3, max 25):
+#   search: limit order book liquidity | 5
+#   search arxiv: hawkes process | 3      (same thing, explicit)
+# Quoted phrases work: search: "order flow" toxicity | 3
+# A search line runs once; its result set is remembered. Change the keywords
+# or number (or use --force) to pull fresh results.
+
+# Examples (uncomment or replace with your own):
+# https://arxiv.org/abs/1312.0514
+# search: limit order book liquidity | 5
+
+search: mean reversion | 5

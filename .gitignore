@@ -1,0 +1,13 @@
+# Personal configuration (copy config.example.ini -> config.ini)
+config.ini
+
+# Runtime artifacts
+pdfs/
+.processed.json
+
+# Python
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
