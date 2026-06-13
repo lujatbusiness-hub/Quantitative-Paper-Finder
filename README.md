@@ -1,4 +1,4 @@
-# paper_summarizer
+# Quantitative Paper Finder
 
 Paste arXiv links (or keyword searches) and get structured Markdown summaries of
 the papers, written into a folder of your choice — summarized entirely by a
